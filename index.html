@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="icons8-netflix-logo-94.png">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+  </head>
+  <body>
+    <div class="main"></div>
+    <nav>
+      <img class="logo" src="images/img/logo.png" alt="logo" />
+      <div class="options">
+        <div class="opt_1">
+          <select>
+            <option>English</option>
+            <option>Bengali</option>
+            <option>Hindi</option>
+          </select>
+        </div>
+        <div class="btn">
+          <button>Sign In</button>
+        </div>
+      </div>
+    </nav>
+    <div class="content">
+      <div class="text1">Unlimited movies, TV shows and more</div>
+      <div class="text2">Starts at &#8377 149. Cancel anytime</div>
+      <div class="text3">
+        Ready to watch? Enter your email to create or restart your membership.
+      </div>
+      <div class="start">
+        <input type="email" placeholder="Email address" />
+        <button>Get Started<i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+    <br>
+    <div class="mid">
+      <h2>Trending now</h2>
+      <div class="slider">
+        <div class="slid">
+          <div class="sec"><img src="images/img/bad.jpg"></div>
+          <div class="sec"><img src="images/img/kalki.jpg"></div>
+          <div class="sec"><img src="images/img/rebel.jpeg"></div>
+          <div class="sec"><img src="images/img/deli.jpg"></div>
+          <div class="sec"><img src="images/img/buddy.jpg"></div>
+          <div class="sec"><img src="images/img/images.jpeg"></div>
+          <div class="sec"><img src="images/img/phir.jpg"></div>
+          <div class="sec"><img src="images/img/indian.jpeg"></div>
+          <div class="sec"><img src="images/img/maharaj.jpg"></div>
+          <div class="sec"><img src="images/img/rom.jpg"></div>
+        </div>
+      </div>
+      <button class="prev" onclick="prevSlide()"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="nxt" onclick="nextSlide()"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <div class="mid">
+      <h2>More reasons to join</h2>
+      <div class="mid_section">
+        <div class="card">
+          <div class="one">
+            <h2>Enjoy on your TV</h2>
+            <p>
+              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              Blueray players and more.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="one">
+            <h2>Download your shows to watch offline</h2>
+            <p>
+              Save your favourites easily and always have something to watch.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="one">
+            <h2>Watch everywhere</h2>
+            <p>
+              Stream unlimited movies and TV shows on your phone, tablet, laptop
+              and TV.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="one">
+            <h2>Create profiles for kids</h2>
+            <p>
+              Send kids on adventures with their favourite characters in a space
+              made just for them — free with your membership.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mid">
+      <div class="questions">
+        <h2>Frequently Asked Questions</h2>
+        <div class="box">
+          <p>What is Netflix?</p>
+          <p>
+            <i class="fa-solid fa-plus"></i>
+          </p>
+        </div>
+
+        <div class="box">
+          <p>How much does Netflix cost?</p>
+          <p>
+            <i class="fa-solid fa-plus"></i>
+          </p>
+        </div>
+
+        <div class="box">
+          <p>Where can I watch?</p>
+          <p>
+            <i class="fa-solid fa-plus"></i>
+          </p>
+        </div>
+
+        <div class="box">
+          <p>How do I cancel?</p>
+          <p>
+            <i class="fa-solid fa-plus"></i>
+          </p>
+        </div>
+
+        <div class="box">
+          <p>What can I watch on Netflix?</p>
+          <p>
+            <i class="fa-solid fa-plus"></i>
+          </p>
+        </div>
+
+        <div class="box">
+          <p>Is Netflix good for kids?</p>
+          <p>
+            <i class="fa-solid fa-plus"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="content new">
+      <div class="text3">
+        Ready to watch? Enter your email to create or restart your membership.
+      </div>
+      <div class="start">
+        <input type="email" placeholder="Email address" />
+        <button>Get Started<i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+    <footer>
+      Questions? <span> Call 00-800-919-1694</span>
+      <div class="tags">
+        <div class="items"><a>FAQ</a></div>
+        <div class="items"><a>Investor Relations</a></div>
+        <div class="items"><a>Privacy</a></div>
+        <div class="items"><a>Speed Test</a></div>
+        <div class="items"><a>Help Centre</a></div>
+        <div class="items"><a>Jobs</a></div>
+        <div class="items"><a>Cookie Preferences</a></div>
+        <div class="items"><a>Legal Notices</a></div>
+        <div class="items"><a>Account</a></div>
+        <div class="items"><a>Ways to watch</a></div>
+        <div class="items"><a>Corporate Information</a></div>
+        <div class="items"><a>Only on Netflix</a></div>
+        <div class="items"><a>Media Centre</a></div>
+        <div class="items"><a>Terms of Use</a></div>
+        <div class="items"><a>Contact Us</a></div>
+        
+      </div>
+      <div class="opt_1">
+        <select>
+          <option>English</option>
+          <option>Bengali</option>
+          <option>Hindi</option>
+        </select>
+      </div>
+      <h4>Netflix India</h4>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
